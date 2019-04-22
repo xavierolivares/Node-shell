@@ -3,7 +3,9 @@
 const fs = require('fs');
 
 module.exports = function(fileName) {
-    process.stdout.write(process.cwd());
-    process.stdout.write('\nprompt >');
+    fs.readFile()
+    if (err) {
+        throw err;
+    }
 
 }
